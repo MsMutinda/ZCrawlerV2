@@ -15,4 +15,5 @@ class ProductscrawlerItem(scrapy.Item):
     image = scrapy.Field(),
     category = scrapy.Field(),
     unit_text = scrapy.Field(),
-    unit_int = scrapy.Field()
+    unit_int = scrapy.Field(),
+    alldetails = scrapy.Field()
